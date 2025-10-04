@@ -1,30 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
 </head>
-
-<nav>
+<body>
+  <nav>
     <a href="../index.html">Home</a> |
     <a href="../projects/index.html">Projects</a> |
     <a href="../contact/index.html">Contact</a> |
     <a href="https://github.com/marcarcos" target="_blank">Profile</a>
-<h1>Contact Me</h1>
-<body>
-    <form action="mailto:marcos@ucsd.edu" method="POST" enctype="text/plain">
-        
-        <label for="email">Email:</label><br>
-        <input name="email" type="email"><br><br>
-        
-        <label for="subject">Subject:</label><br>
-        <input name="subject"><br><br>
+  </nav>
 
-        <label for="message">Message:</label><br>
-        <textarea name="body"></textarea><br><br>
-        
-        <button>Send</button>
-    </form>
+  <h1>Contact Me</h1>
+
+  <form action="mailto:marcos@ucsd.edu" method="POST" enctype="text/plain">
+    <label for="email">Email:</label><br>
+    <input id="email" name="email" type="email" required><br><br>
+    
+    <label for="subject">Subject:</label><br>
+    <input id="subject" name="subject" required><br><br>
+
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="body" rows="6" cols="40" required></textarea><br><br>
+    
+    <button type="submit">Send</button>
+  </form>
 </body>
 </html>
