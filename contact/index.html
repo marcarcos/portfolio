@@ -4,29 +4,28 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact</title>
+  <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
-    <nav>
-        <a href="/portfolio/index.html">Home</a> |
-        <a href="/portfolio/projects/index.html">Projects</a> |
-        <a href="/portfolio/contact/index.html">Contact</a> |
-        <a href="https://github.com/marcarcos" target="_blank">Profile</a> |
-        <a href="/portfolio/resume/index.html">Resume</a>
-      </nav>
-      
-      
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="../projects/index.html">Projects</a>
+    <a class="current" href="index.html">Contact</a>
+    <a href="https://github.com/marcarcos" target="_blank">Profile</a>
+    <a href="../resume/index.html">Resume</a>
+  </nav>    
 
   <h1>Contact Me</h1>
 
   <form action="mailto:marcos@ucsd.edu" method="POST" enctype="text/plain">
-    <label for="email">Email:</label><br>
-    <input id="email" name="email" type="email" required><br><br>
+    <label for="email">Email:</label>
+    <input id="email" name="email" type="email" required>
     
-    <label for="subject">Subject:</label><br>
-    <input id="subject" name="subject" required><br><br>
+    <label for="subject">Subject:</label>
+    <input id="subject" name="subject" required>
 
-    <label for="message">Message:</label><br>
-    <textarea id="message" name="body" rows="6" cols="40" required></textarea><br><br>
+    <label for="message">Message:</label>
+    <textarea id="message" name="body" rows="6" cols="40" required></textarea>
     
     <button type="submit">Send</button>
   </form>

@@ -1,0 +1,184 @@
+/* General body styling */
+body {
+    /* Set line height to 1.5 times the font size for better readability */
+    /* Use the system's default UI font for consistency across devices */
+    font: 100%/1.5 system-ui;
+    /* Limit the maximum width of the content to 100 characters for readability */
+    max-width: 100ch;
+    /* Center the content horizontally */
+    margin-inline: auto;
+    /* Add padding around the content */
+    padding: 1rem;
+}
+
+/* Navigation bar styling */
+nav {
+    /* Use flexbox for layout to align items horizontally */
+    display: flex;
+    /* Add spacing below the navigation bar */
+    margin-bottom: 1rem;
+    /* Add a subtle border below the navigation bar */
+    border-bottom: 1px solid oklch(80% 3% 200);
+}
+
+/* Navigation links styling */
+nav a {
+    /* Make each link take up equal space */
+    flex: 1;
+    /* Center the content inside each link */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* Add padding inside the links */
+    padding: 0.5em;
+    /* Remove the default underline from links */
+    text-decoration: none;
+    /* Inherit the text color from the parent element */
+    color: inherit;
+    /* Add a transparent border at the bottom for hover effects */
+    border-bottom: 0.4rem solid transparent;
+}
+
+/* Styling for the current (active) navigation link */
+nav a.current {
+    /* Add a thicker border at the bottom for the active link */
+    border-bottom-width: 0.4em;
+    border-bottom-style: solid;
+    /* Use a specific color for the active link's border */
+    border-bottom-color: oklch(80% 3% 200);
+    /* Add extra padding at the bottom for spacing */
+    padding-bottom: 0.4rem;
+}
+
+/* Root-level custom properties (CSS variables) */
+:root {
+    /* Define an accent color using OKLCH color space */
+    --color-accent: oklch(65% 50% 120);
+    /* Set the accent color for form elements */
+    accent-color: var(--color-accent);
+}
+
+/* Hover effect for navigation links */
+nav a:hover {
+    /* Change the bottom border color on hover */
+    border-bottom: 2px solid var(--color-accent);
+    /* Change the background color slightly on hover */
+    background-color: oklch(from var(--color-accent) 95% 5% h);
+}
+
+/* Styling for input, textarea, and button elements */
+input,
+textarea,
+button {
+  /* Inherit font styles from the parent element */
+  font: inherit;
+  /* Ensure consistent box-sizing to include padding and border in width/height */
+  box-sizing: border-box;
+  /* Make these elements take up the full width of their container */
+  width: 100%;
+}
+
+/* Styling for forms */
+form {
+    /* Use a grid layout for form elements */
+    display: grid;
+    /* Define two columns: one auto-sized and one flexible */
+    grid-template-columns: auto 1fr;
+    /* Add spacing between grid items */
+    gap: 0.5em;
+}
+  
+/* Styling for labels */
+label {
+    /* Use a grid layout for labels */
+    display: grid;
+    /* Use the subgrid feature to inherit grid settings from the parent */
+    grid-template-columns: subgrid;
+}
+
+/* Styling for buttons */
+button {
+    /* Make the button span across all columns */
+    grid-column: 1 / -1;
+    /* Center-align the text inside the button */
+    text-align: center;
+}
+
+/* Styling for input, textarea, and button elements (repeated for consistency) */
+input,
+textarea,
+button {
+  /* Inherit font styles from the parent element */
+  font: inherit;
+  /* Ensure consistent box-sizing to include padding and border in width/height */
+  box-sizing: border-box;
+  /* Make these elements take up the full width of their container */
+  width: 100%;
+}
+
+/* Styling for the projects section */
+.projects {
+    /* Use a grid layout for project items */
+    display: grid;
+    /* Create columns that adjust to fit the container, with a minimum size of 15em */
+    grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+    /* Add spacing between grid items */
+    gap: 2em;
+}
+
+/* Styling for individual project articles */
+.projects article {
+    /* Use a grid layout for project articles */
+    display: grid;
+    /* Use the subgrid feature to inherit grid settings from the parent */
+    grid-template-rows: subgrid;
+    /* Make the article span 3 rows */
+    grid-row: span 3;
+    /* Add spacing between grid items */
+    gap: 0.5em;
+}
+
+/* Styling for the main heading (h1) */
+h1 {
+    /* Set the font size to 400% of the base font size */
+    font-size: 400%;
+}
+  
+/* Styling for all heading levels (h1 to h6) */
+h1, h2, h3, h4, h5, h6 {
+    /* Set the line height to 1.1 for tighter spacing */
+    line-height: 1.1;
+    /* Enable balanced text wrapping for better readability */
+    text-wrap: balance;
+}
+
+.resume {
+    background-color: #f9f9f9; /* Light background for contrast */
+    border: 1px solid #ddd; /* Subtle border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 2em; /* Add spacing inside */
+    margin: 2em 0; /* Add spacing outside */
+    font-family: 'Roboto', sans-serif; /* Clean font */
+    font-size: 1rem; /* Standard font size */
+    line-height: 1.6; /* Improve readability */
+    color: #333; /* Dark text for readability */
+    text-align: center;
+}
+
+.resume h1, .resume h2, .resume h3 {
+    margin-top: 0; /* Remove extra margin at the top */
+    color: #444; /* Slightly lighter heading color */
+    margin-bottom: 1em; /* Space below headings */
+    border-bottom: 0.2em solid #ddd; /* Underline headings */
+    padding: 0.4em 0; /* Padding for underline */
+}
+
+.resume ul {
+    padding-left: 1.5em; /* Indent list items */
+    text-align: left;
+}
+
+.resume li {
+    margin-bottom: 0.5em; /* Add spacing between list items */
+} 
