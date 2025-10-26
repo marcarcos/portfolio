@@ -2,19 +2,19 @@
     {
         "title": "Nutrient Breakdown by Processing Class and Store",
         "year": "2025",
-        "image": "images/nutrient_by_processing_class.jpg",
+        "image": "../images/nutrient_by_processing_class.jpg",
         "description": "This project illustrates the differences in nutrient content among various food processing classses and retail stores."
     },
     {
         "title": "Clash Royale Card Synergies and Deck Compositions",
         "year": "2025",
-        "image": "images/clash_royale_deck_preview.jpg",
+        "image": "../images/clash_royale_deck_preview.jpg",
         "description": "Uses meta-clustering with K-Means and Gaussian Mixture Models to identify card synergies for optimal deck building in Clash Royale."
     },
     {
         "title": "Recipies Explored",
         "year": "2025",
-        "image": "images/recipes.jpg",
+        "image": "../images/recipes.jpg",
         "description": "An exploration of recipes from a food.com dataset, analyzing ingredients, cooking times, and nutrition to recommend recipies to users."
     },
     {
