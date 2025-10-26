@@ -1,0 +1,74 @@
+[
+    {
+        "title": "Nutrient Breakdown by Processing Class and Store",
+        "year": "2025",
+        "image": "images/nutrient_by_processing_class.jpg",
+        "description": "This project illustrates the differences in nutrient content among various food processing classses and retail stores."
+    },
+    {
+        "title": "Clash Royale Card Synergies and Deck Compositions",
+        "year": "2025",
+        "image": "images/clash_royale_deck_preview.jpg",
+        "description": "Uses meta-clustering with K-Means and Gaussian Mixture Models to identify card synergies for optimal deck building in Clash Royale."
+    },
+    {
+        "title": "Recipies Explored",
+        "year": "2025",
+        "image": "images/recipes.jpg",
+        "description": "An exploration of recipes from a food.com dataset, analyzing ingredients, cooking times, and nutrition to recommend recipies to users."
+    },
+    {
+        "title": "Aliquid voluptate fugit cum!",
+        "year": "2024",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Fugit harum, rerum eligendi ex soluta aliquam autem placeat numquam, dolore, sed velit porro distinctio cum tempore tenetur. Maiores cupiditate dolorem sit? Quam sapiente nemo ex veniam quia ipsam doloribus?"
+    },
+    {
+        "title": "Maxime repudiandae exercitationem voluptate!",
+        "year": "2024",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Accusantium ea quae aliquid voluptate quisquam id optio est! Laboriosam exercitationem est iusto nesciunt tenetur dolores dignissimos consectetur aspernatur corporis iste repellendus in, sint quibusdam fugit totam quis consequatur deserunt!"
+    },
+    {
+        "title": "Sed in non magnam.",
+        "year": "2024",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Cum magni dicta, omnis exercitationem mollitia harum laudantium. Quae enim tempore odit maiores cum? Fugiat corporis eius iste temporibus, illum architecto cum nobis impedit similique eum libero atque, dicta ipsum."
+    },
+    {
+        "title": "Atque, veniam esse. Similique?",
+        "year": "2023",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Quas aspernatur provident voluptate nemo dicta! Recusandae quod nesciunt eius. Soluta, rem! Hic omnis ipsa, dignissimos distinctio enim autem cum, recusandae at laboriosam mollitia, ipsum consectetur natus nulla voluptatem vel."
+    },
+    {
+        "title": "Incidunt culpa quod maxime?",
+        "year": "2023",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Veniam, velit quae voluptas fugiat accusantium nesciunt, minus officiis impedit doloribus aspernatur asperiores nisi odio dicta repellendus. Laudantium placeat iure dolore exercitationem beatae harum. Eaque unde rem ullam error repudiandae."
+    },
+    {
+        "title": "Officiis, necessitatibus ipsa? Expedita.",
+        "year": "2023",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Veniam consequuntur nisi quod voluptates odit laborum illo reprehenderit ipsam eveniet, pariatur cupiditate molestias, eligendi quidem fugit voluptatem vitae itaque reiciendis! Iure eius eum esse labore commodi nesciunt non quae?"
+    },
+    {
+        "title": "Quod culpa accusantium commodi.",
+        "year": "2023",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Necessitatibus porro reprehenderit molestias id, quia illum quibusdam reiciendis doloribus quisquam harum corporis nobis ex a ab minus explicabo aut optio vero aliquid quod distinctio perferendis error. Veniam, numquam labore."
+    },
+    {
+        "title": "Enim voluptas officia eum?",
+        "year": "2024",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Sint facere cupiditate consectetur saepe molestiae dolorum perspiciatis tempore, enim odio perferendis voluptate corporis quia dolore officia a alias doloremque harum dignissimos libero dolorem doloribus architecto tempora! Ab, at recusandae?"
+    },
+    {
+        "title": "Corrupti illum quisquam porro!",
+        "year": "2025",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Adipisci voluptate itaque, voluptatem reiciendis architecto, incidunt obcaecati veritatis nisi odio quis ipsum, dignissimos beatae sunt officiis. Repellendus excepturi impedit quibusdam, inventore in aliquid voluptatem! Est inventore corrupti atque sunt."
+    }
+]

@@ -1,3 +1,7 @@
+html {
+    color-scheme: light dark;
+  }  
+
 /* General body styling */
 body {
     /* Set line height to 1.5 times the font size for better readability */
@@ -61,11 +65,9 @@ nav a.current {
 
 /* Hover effect for navigation links */
 nav a:hover {
-    /* Change the bottom border color on hover */
-    border-bottom: 2px solid var(--color-accent);
-    /* Change the background color slightly on hover */
-    background-color: oklch(from var(--color-accent) 95% 5% h);
-}
+    background-color: color-mix(in oklch, var(--color-accent), canvas 85%);
+  }
+  
 
 /* Styling for input, textarea, and button elements */
 input,
@@ -181,4 +183,48 @@ h1, h2, h3, h4, h5, h6 {
 
 .resume li {
     margin-bottom: 0.5em; /* Add spacing between list items */
-} 
+}
+
+label.color-scheme {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 80%;
+    font-family: inherit;
+  }
+
+#profile-stats {
+  padding: 1.5rem;
+  margin-block: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin-inline: auto;
+}
+
+#profile-stats dl {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem 1rem;
+  margin: 0;
+}
+
+#profile-stats dt {
+  font-weight: bold;
+  text-align: center;
+}
+
+#profile-stats dd {
+  margin: 0;
+  text-align: center;
+}
+
+.projects img {
+  width: 100%;
+  height: auto;
+  max-height: 200px; /* Or whatever fits nicely */
+  object-fit: cover;
+  border-radius: 8px;
+}
+
