@@ -1,21 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projects - Marcelo Arcos</title>
-  <link rel="stylesheet" href="../styles.css">
-  <script src="../global.js" type="module"></script>
-  <script src="projects.js" type="module"></script>
-</head>
-<body>    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects - Marcelo Arcos</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <script src="../global.js" type="module"></script>
+    <script src="projects.js" type="module"></script>
+  </head>
+  <body>
+    <h1 class="projects-title">Projects</h1>
+    <p>Welcome to my projects page! Here you’ll find examples of my work.</p>
 
-  <h1 class="projects-title">Projects</h1>
+    <!-- Visualization container -->
+    <div class="container">
+      <svg id="projects-pie-plot" viewBox="-50 -50 100 100"></svg>
+      <ul class="legend"></ul>
+    </div>
 
-  <p>Welcome to my projects page! Here you’ll find examples of my work.</p>
-  
-  <div class="projects"></div>
+    <!-- Search -->
+    <input
+      class="searchBar"
+      type="search"
+      aria-label="Search projects"
+      placeholder="🔍 Search projects…"
+    />
 
-  
-</body>
+    <!-- Projects list -->
+    <div class="projects"></div>
+  </body>
 </html>

@@ -228,3 +228,41 @@ label.color-scheme {
   border-radius: 8px;
 }
 
+#projects-pie-plot {
+  max-width: 20em;
+  margin-block: 2em;
+  overflow: visible;
+}
+.legend {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(9em, 1fr));
+  gap: 1em;
+  border: 1px solid var(--fg, #555);
+  padding: 1em;
+}
+.legend li {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+.swatch {
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  background: var(--color);
+  border-radius: 0.2em;
+}
+path {
+  transition: 300ms;
+  cursor: pointer;
+}
+svg:has(path:hover) path:not(:hover) {
+  opacity: 0.5;
+}
+.selected {
+  --color: oklch(60% 45% 0) !important;
+}
+.selected:is(path) {
+  fill: var(--color);
+}
+
